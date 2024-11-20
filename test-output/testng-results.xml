@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-20T16:08:39 IST" name="Default suite" finished-at="2024-11-20T16:08:48 IST" duration-ms="8290">
+  <suite started-at="2024-11-20T17:06:17 IST" name="Default suite" finished-at="2024-11-20T17:06:18 IST" duration-ms="1117">
     <groups>
     </groups>
-    <test started-at="2024-11-20T16:08:39 IST" name="Default test" finished-at="2024-11-20T16:08:48 IST" duration-ms="8290">
-      <class name="APIBasicsTesting.APIAutomationBasics">
-        <test-method signature="run()[pri:0, instance:APIBasicsTesting.APIAutomationBasics@2a4fb17b]" started-at="2024-11-20T16:08:39 IST" name="run" finished-at="2024-11-20T16:08:48 IST" duration-ms="8255" status="PASS">
+    <test started-at="2024-11-20T17:06:17 IST" name="Default test" finished-at="2024-11-20T17:06:18 IST" duration-ms="1117">
+      <class name="BasicExcercise.excercise">
+        <test-method signature="run()[pri:0, instance:BasicExcercise.excercise@2a4fb17b]" started-at="2024-11-20T17:06:17 IST" name="run" finished-at="2024-11-20T17:06:18 IST" duration-ms="1084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-      </class> <!-- APIBasicsTesting.APIAutomationBasics -->
+      </class> <!-- BasicExcercise.excercise -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
