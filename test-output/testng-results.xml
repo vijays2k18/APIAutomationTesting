@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-20T14:51:33 IST" name="Default suite" finished-at="2024-11-20T14:51:34 IST" duration-ms="1370">
+  <suite started-at="2024-11-20T14:57:39 IST" name="Default suite" finished-at="2024-11-20T14:57:40 IST" duration-ms="1419">
     <groups>
     </groups>
-    <test started-at="2024-11-20T14:51:33 IST" name="Default test" finished-at="2024-11-20T14:51:34 IST" duration-ms="1370">
+    <test started-at="2024-11-20T14:57:39 IST" name="Default test" finished-at="2024-11-20T14:57:40 IST" duration-ms="1419">
       <class name="ApiAutomation.API_Automation.Api_Basics1">
-        <test-method signature="run()[pri:0, instance:ApiAutomation.API_Automation.Api_Basics1@2a4fb17b]" started-at="2024-11-20T14:51:33 IST" name="run" finished-at="2024-11-20T14:51:34 IST" duration-ms="1338" status="PASS">
+        <test-method signature="run()[pri:0, instance:ApiAutomation.API_Automation.Api_Basics1@2a4fb17b]" started-at="2024-11-20T14:57:39 IST" name="run" finished-at="2024-11-20T14:57:40 IST" duration-ms="1384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
