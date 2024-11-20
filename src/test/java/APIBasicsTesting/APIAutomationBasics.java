@@ -19,11 +19,20 @@ public class APIAutomationBasics {
 		String addAPIResponse = given().queryParam("key", "qaclick123").header("Content-Type","application/json").body(payload.Addplace())
 		.when().post("/maps/api/place/add/json")
 		.then().assertThat().statusCode(200).extract().asString();
-		System.out.println(addAPIResponse);
 		// Extracting Place Id from Response
 		JsonPath js = new JsonPath(addAPIResponse);
 		String placeId = js.getString("place_id");
-		System.out.println(placeId);
+			
+		//Get API 
+		
+		String getAPIResponse = given().queryParam("place_id", placeId).queryParam("key", "qaclick123")
+		.headers("Content-Type","application/json").when().get("/maps/api/place/get/json")
+		.then().assertThat().statusCode(200).extract().asString();
+		System.out.println(getAPIResponse);
+		
+		JsonPath js1 = new JsonPath(getAPIResponse);
+		String expectedName = js1.getString("name");
+		System.out.println(expectedName);
 		
 	}
 
