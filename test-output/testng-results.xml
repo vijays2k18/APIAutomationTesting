@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-21T11:10:32 IST" name="Default suite" finished-at="2024-11-21T11:10:33 IST" duration-ms="1779">
+  <suite started-at="2024-11-21T12:41:27 IST" name="Default suite" finished-at="2024-11-21T12:41:29 IST" duration-ms="1890">
     <groups>
     </groups>
-    <test started-at="2024-11-21T11:10:32 IST" name="Default test" finished-at="2024-11-21T11:10:33 IST" duration-ms="1779">
-      <class name="DynamicJson.DynaciJson">
-        <test-method signature="run()[pri:0, instance:DynamicJson.DynaciJson@2a4fb17b]" started-at="2024-11-21T11:10:32 IST" name="run" finished-at="2024-11-21T11:10:33 IST" duration-ms="1745" status="PASS">
+    <test started-at="2024-11-21T12:41:27 IST" name="Default test" finished-at="2024-11-21T12:41:29 IST" duration-ms="1890">
+      <class name="Authentication_Demo.AuthorizationServer">
+        <test-method signature="run()[pri:0, instance:Authentication_Demo.AuthorizationServer@2a4fb17b]" started-at="2024-11-21T12:41:27 IST" name="run" finished-at="2024-11-21T12:41:29 IST" duration-ms="1857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-      </class> <!-- DynamicJson.DynaciJson -->
+      </class> <!-- Authentication_Demo.AuthorizationServer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
