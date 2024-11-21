@@ -2,6 +2,7 @@ package Authentication_Demo;
 
 import org.testng.annotations.Test;
 
+import GettersandSetters.GetCourse;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
@@ -31,10 +32,13 @@ public class AuthorizationServer {
 			String accessToken = js1.getString("refresh_token");
 			System.out.println(accessToken);
 			
-			String getCoursesList = given().param("access_token", accessToken)
+			GetCourse gc = given().param("access_token", accessToken)
 			.when().get("oauthapi/getCourseDetails")
-			.then().assertThat().extract().asString();
-			System.out.println(getCoursesList);
+			.then().assertThat().extract().as(GetCourse.class);
+			
+			System.out.println(gc.getInstructor());
+			System.out.println(gc.getLinkedIn());
+			System.out.println(gc.getUrl());
 		
 		
 		
