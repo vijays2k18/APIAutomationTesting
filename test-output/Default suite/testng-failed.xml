@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Authentication_Demo.AuthorizationServer">
+      <class name="RequestandResponse.ReqandRes">
         <methods>
           <include name="run"/>
         </methods>
-      </class> <!-- Authentication_Demo.AuthorizationServer -->
+      </class> <!-- RequestandResponse.ReqandRes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
